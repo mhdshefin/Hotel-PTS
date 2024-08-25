@@ -1,0 +1,450 @@
+
+<!--
+   Author: W3layouts
+   Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Hotel PTS | home</title>
+    <link rel="icon" href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTYugqlytHrTHfNxuXPQSKPMmSyXhlRROQ8RVIaQeUpgxul531Y" type="image/icon type">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body id="home">
+<section class=" w3l-header-4 header-sticky">
+	<!--header-->
+	<header id="site-header" class="fixed-top">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-dark stroke">
+				<a class="navbar-brand" href="index.html">
+					<span class="fa fa-cutlery"></span> Hotel PTS 
+				</a>
+				<!-- if logo is image enable this   
+			<a class="navbar-brand" href="#index.html">
+				<img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+			</a> -->
+				<button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+					<span class="navbar-toggler-icon fa icon-close fa-times"></span>
+					
+				</button>
+	  
+				<div style="margin-right: -130px;" class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						
+						<li class="nav-item @@services__active">
+							<a class="nav-link" href="services.html">Menu</a>
+						</li>
+            <li class="nav-item @@about__active">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item @@contact__active">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<li class="nav-item ml-4">
+							
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	  </header>
+	<!--/header-->
+</section>
+
+<script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
+<!--bootstrap working-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap working-->
+<!--/MENU-JS-->
+<script>
+	$(window).on("scroll", function () {
+	  var scroll = $(window).scrollTop();
+  
+	  if (scroll >= 80) {
+		$("#site-header").addClass("nav-fixed");
+	  } else {
+		$("#site-header").removeClass("nav-fixed");
+	  }
+	});
+  
+	//Main navigation Active Class Add Remove
+	$(".navbar-toggler").on("click", function () {
+	  $("header").toggleClass("active");
+	});
+	$(document).on("ready", function () {
+	  if ($(window).width() > 991) {
+		$("header").removeClass("active");
+	  }
+	  $(window).on("resize", function () {
+		if ($(window).width() > 991) {
+		  $("header").removeClass("active");
+		}
+	  });
+	});
+  </script>
+  <!--//MENU-JS-->
+<!-- disable body scroll which navbar is in active -->
+<script>
+$(function () {
+  $('.navbar-toggler').click(function () {
+    $('body').toggleClass('noscroll');
+  })
+});
+</script>
+<!-- disable body scroll which navbar is in active -->
+
+<section class="w3l-hero-headers-9" id="home">
+  <div class="slide text-center header11" data-selector="header11">
+    
+      <div class="container">
+          <div class="banner-text ">
+              <h5 class=" ">Only taste is <br>real for food</h5>
+              <p class=" ">A recipe has no soul. We as the cook brought soul to the recipe.</p>
+              <a href="services.html" class="btn logo-button top-margin">View Our Menu</a>
+          </div>
+      </div>
+
+  </div>
+</section>
+<section class="w3l-teams-15">
+	<div class="team-single-main ">
+		<div class="container">
+
+		<div  class="row">
+				<div class="column2 image-text col-lg-6">
+					<div class="nature-row ">
+						<h5><a href="#page" >
+							Enjoy Our Delicious Food</a></h5>
+					<p class="para  text ">
+						The best way to enjoy your life is with some delicious food.</p>
+					</div>
+					<div class="nature-row ">
+						<h5><a href="#page">
+							All Different Types </a></h5>
+					<p class="para  text ">
+					We have the most delicious and all types of food.</p>
+					</div>
+					<div class="nature-row ">
+						<h5><a href="#page">Experience new flavors</a></h5>
+					<p class="para  text ">
+						People who like to eat our food are always good people.</p>
+					</div>
+				</div>
+			<div class="column2 image-text col-lg-6">
+				<img class="img-size" src="assets/images/food.jpg" alt="product" class="img-responsive">
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
+<section class="w3l-specification-6">
+    <div class="specification-layout ">
+        <div class="container">
+            <div class="main-titles-head ">
+                <h3 class="header-name ">
+					Our Special Feature
+                </h3>
+                <p class="tiltle-para  ">Enjoy our food with our special features.</p>
+            </div>
+                    <div class="call-grids-w3 d-grid">
+                      <div class="grids-1 grids-effect-2">
+                        <span class="fa fa-handshake-o"></span>
+                        <h4><a href="#feature" class="title-head">Expert Chef</a></h4>
+                        
+                    </div>
+
+                    <div class="grids-1 grids-effect-2">
+                      <span class="fa fa-smile-o"></span>
+                      <h4><a href="#feature" class="title-head">Quick Serve</a></h4>
+                      
+                  </div>
+
+                  <div class="grids-1 grids-effect-2">
+                    <span class="fa fa-diamond"></span>
+                    <h4><a href="#feature" class="title-head title-head">Delicious Food</a></h4>
+                    
+                </div>  
+
+                <div class="grids-1  grids-effect-2">
+                  <div class="color-white">
+                      <span class="fa fa-thumbs-o-up"></span>
+                  <h4><a href="#page" class=" title-head">Desert</a></h4>
+                 
+              </div>
+                        
+                       
+                    </div>
+                  </div>
+        </div>
+</section>
+
+<section class="w3l-call-to-action_9">
+    <div class="call-w3">
+        <div class="container text-center">
+            <div class="title-head">
+            <h3>Enjoy Our<br>
+                Delicious Food</h3>
+            
+        </div>
+          
+              </div>
+        </div>
+    </div>
+</section>
+
+<section class="w3l-covers-18">
+        <div class="covers-main ">
+            <div class="container">
+              <div class="main-titles-head ">
+                <h3 class="header-name ">
+                  Discover Our Menu
+                </h3>
+                <p class="tiltle-para  ">The best dish in our restaurant is the <br> whole part of the menu.</p>
+            </div>
+                <div class="gallery-image row">
+                  <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                    <img style="width: 100%;" src="assets/images/roti.avif" alt="product" class="img-responsive ">
+                    <h5 class="my-2"><a href="about.html">Butter Porotta</a></h5>
+                    <p class="para">Butter Porotta is made of whole wheat<br>it has crispiness and butter taste.</p>
+                  </div>
+                  <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                    <img src="assets/images/chicken-biri.jpg" alt="product" class="img-responsive ">
+                    <h5 class="my-2"><a href="about.html">Chicken Biriyani</a></h5>
+                    <p class="para">Chicken biriyani is made of chicken and rose rice.</p>
+                  </div>
+                  <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                    <img src="assets/images/fried rice.avif" alt="product" class="img-responsive ">
+                    <h5 class="my-2"><a href="about.html">Chicken Fried rice</a></h5>
+                    <p class="para">Fried chicken is made of chicken,egg and vegitables.</p>
+                    </div>
+                    <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                      <img src="assets/images/broast.jpg" alt="product" class="img-responsive ">
+                      <h5 class="my-2"><a href="about.html">Broast</a></h5>
+                      <p class="para">Broast is made of fresh chicken <br>it is crispy</p>
+                    </div>
+                    <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                      <img src="assets/images/pizza.jpg" alt="product" class="img-responsive ">
+                      <h5 class="my-2"><a href="about.html">Pizza </a></h5>
+                      <p class="para">Pizza is made of maitha,chicken and vegitables.</p>
+                    </div>
+                    <div class="img-box col-lg-4 col-md-6 col-sm-6">
+                      <img src="assets/images/mandhi-alfaham.jpg" alt="product" class="img-responsive ">
+                      <h5 class="my-2"><a href="about.html">Alfaham Mandhi</a></h5>
+                      <p class="para">Alfaham mandhi is made of chicken and rose rice it has a spicy taste.</p>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="w3l-clients" id="client">
+    <div class="main-w3 text-center">
+        <div class="container">
+            <div class="form-right-inf"> 
+                <div class="form-inner-cont">
+                  <div class="main-titles-head ">
+                    <h3 class="header-name white ">
+                       Book your Table
+                    </h3>
+                    <p class="tiltle-para  "> Eat our's delicious food in your comfort table <br>Enjoy the meals.</p>
+                </div>
+                    <form action="search-results.html" method="post" class="signin-form">	
+                        <div class="row book-form">
+                            <div class="form-input col-lg-6 col-md-6">
+                                <input type="text" name="" placeholder="Enter Your Name" required="">
+                            </div>
+                            <div class="form-input col-lg-6 col-md-6 mt-md-0 mt-3">
+                               <input type="email" name="" placeholder="Email" required="">
+                                 
+                           </div>
+                           <div class="form-input col-md-4 mt-3">
+                           <select name="" id="">
+                            <option >Room Type</option>
+                            <option >AC</option>
+                            <option >Non AC</option>
+                           </select>
+                              
+                        </div>
+                           
+                           <div class="form-input col-md-4 mt-3">
+                            <select class="selectpicker">
+                                <option>Time</option>
+                                <option>5:00 AM</option>
+                                <option>6:00 AM</option>
+                                <option>7:00 AM</option>
+                                <option>8:00 AM</option>
+                                <option>9:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>12:00 PM</option>
+                                <option>1:00 PM</option>
+                                <option>2:00 PM</option>
+                                <option>3:00 PM</option>
+                                <option>4:00 PM</option>
+                                <option>5:00 PM</option>
+                                <option>6:00 PM</option>
+                                <option>7:00 PM</option>
+                                <option>9:00 PM</option>
+                                <option>10:00 PM</option>
+                              </select>
+                              
+                                 
+                           </div>
+                            <div class="form-input col-md-4  mt-3">
+                               <select class="selectpicker">
+                                   <option>Adults</option>
+                                   <option>01</option>
+                                   <option>02</option>
+                                   <option>03</option>
+                                   <option>04</option>
+                                   <option>05</option>
+                                   <option>06</option>
+                                   <option>07</option>
+                                   <option>09</option>
+                                   <option>10</option>
+                                 </select>
+                                 
+                            </div>
+                            <div class="form-input col-md-4 mt-3">
+                               <select class="selectpicker">
+                                   <option>Children</option>
+                                   <option>01</option>
+                                   <option>02</option>
+                                   <option>03</option>
+                                   <option>04</option> 
+                                   <option>05</option>
+                                   <option>06</option>
+                                   <option>07</option>
+                                   <option>08</option>
+                                   <option>09</option>
+                                   <option>10</option>
+                                 </select>
+                                 
+                            </div>
+                            <div class="form-input col-md-4  mt-3">
+                                <select class="selectpicker">
+                                    <option>Table</option>
+                                    <option>Table 1</option>
+                                    <option>Table 2</option>
+                                    <option>Table 3</option>
+                                    <option>Table 4</option>
+                                    <option>Table 5</option>
+                                    <option>Table 6</option>
+                                    <option>Table 7</option>
+                                    <option>Table 8</option>
+                                    <option>Table 9</option>
+                                    <option>Table 10</option>
+                                    <option>Table 11</option>
+                                    <option>Table 12</option>
+                                    <option>Table 13</option>
+                                    <option>Table 14</option>
+                                    <option>Table 15</option>
+                                    <option>Table 16</option>
+                                    <option>Table 17</option>
+                                    <option>Table 18</option>
+                                    <option>Table 19</option>
+                                    <option>Table 20</option>
+                                    <option>Table 21</option>
+                                    <option>Table 22</option>
+                                    <option>Table 23</option>
+                                    <option>Table 24</option>
+                                    <option>Table 25</option>
+                                    <option>Table 26</option>
+                                    <option>Table 27</option>
+                                    <option>Table 28</option>
+                                    <option>Table 29</option>
+                                    <option>Table 30</option>
+                                  </select>
+                                  
+                           </div> 
+                           <div class="bottom-btn col-md-4  mt-3">
+                           <button class="btn">Check Availability</button>
+                           </div>
+                        </div>
+                       
+                       
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="w3l-footer-29-main">
+	<div class="footer-29 py-5 text-center">
+	  <div class="container">
+		<div class="footer-list-29 footer-1 ">
+				<h2><a href="index.html" class="footer-logo"><span class="fa fa-cutlery"></span> Hotel PTS </a></h2>
+				<p class="para">One of the famous hotel.Enjoy our's delicious food.</p>
+	
+		  </div>
+		<div class="row footer-top-29">
+
+		  <div class="col-lg-4 col-md-4 col-sm-6 footer-list-29 footer-2 ">
+				<h6 class="footer-title-29">Address</h6>
+				<ul>
+          <li><a href="98P5+682, Palemad, Kerala 679331" class="Address"><span class="fa fa-envelope-open-o"></span> 98P5+682, Palemad, Kerala 679331. </a></li>
+					
+				</ul>
+		  </div>
+		  <div class="col-lg-4 col-md-4 col-sm-6 footer-list-29 footer-2 ">
+				<h6 class="footer-title-29">Opening Hours</h6>
+				<ul>
+						<li><p><span>All day:</span> 5AM-10PM</p></li>
+					
+				</ul>
+		  </div>
+		  <div class="col-lg-4 col-md-4 col-sm-6 footer-list-29 footer-2 ">
+				<h6 class="footer-title-29">Contact Us</h6>
+				<ul>
+					<li><a href=""><span class="fa fa-phone"></span> </a></li>
+					<li><a href="" class="mail"><span class="fa fa-envelope-open-o"></span> </a></li>
+				</ul>
+		  </div>
+		</div>
+	</div>
+  </section>
+  
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+	<span class="fa fa-long-arrow-up"></span>
+</button>
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function () {
+		scrollFunction()
+	};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("movetop").style.display = "block";
+		} else {
+			document.getElementById("movetop").style.display = "none";
+		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+	}
+</script>
+<!-- /move top -->
+</body>
+
+</html>
